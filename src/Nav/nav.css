@@ -141,7 +141,7 @@
 }
 
 .nav-action:hover {
-    color: var((--primary, #f97316));
+    color: var(--primary, #f97316);
 
 }
 
