@@ -103,8 +103,10 @@
 
 .product-card img {
   width: 100%;
-  height: 240px;
+  height: 340px;
   object-fit: cover;
+  object-position: center;
+  display: block;
 }
 
 .product-card h3 {
@@ -146,6 +148,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  
 }
 
 .category-card h2 {
@@ -250,7 +253,7 @@
   }
 
   .product-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .features {
